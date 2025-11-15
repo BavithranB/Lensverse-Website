@@ -3,6 +3,7 @@ import siteContent from '@/content/site.json';
 export interface Brand {
   name: string;
   tagline: string;
+  logo?: string;
 }
 
 export interface HeroSlide {

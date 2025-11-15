@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 import { motion, AnimatePresence } from 'framer-motion';
 import { getContent } from '@/lib/content';
 
@@ -41,21 +42,24 @@ export default function Navigation() {
           <Link
             href="/"
             className="flex items-center h-12 hover:opacity-80 transition-opacity"
+            aria-label="Home"
           >
-            {logoError ? (
-              <span className="text-2xl font-display font-bold text-white">
-                {content.brand.name}
-              </span>
-            ) : (
-              <img
-                src={content.brand.logo || '/logo.png'}
-                alt={content.brand.name}
-                className="h-20 w-auto object-contain"
-
-                onError={() => setLogoError(true)}
-                onLoad={() => setLogoError(false)}
-              />
-            )}
+            <div className="relative h-12 w-40">
+              {content.brand.logo ? (
+                <Image
+                  src={content.brand.logo}
+                  alt={content.brand.name}
+                  fill
+                  className="object-contain"
+                  priority
+                  onError={() => setLogoError(true)}
+                />
+              ) : (
+                <span className="text-2xl font-display font-bold text-white">
+                  {content.brand.name}
+                </span>
+              )}
+            </div>
           </Link>
 
           {/* ----------- DESKTOP NAV ----------- */}
