@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1920" height="1080" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="grad-vid" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a1a1a;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#333333;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="1920" height="1080" fill="url(#grad-vid)"/>
+  <circle cx="960" cy="540" r="80" fill="#d4af37" opacity="0.9"/>
+  <polygon points="930,490 930,590 1010,540" fill="#1a1a1a"/>
+  <text x="960" y="680" font-family="Arial, sans-serif" font-size="28" font-weight="bold" fill="#d4af37" text-anchor="middle">Stories in Motion</text>
+  <text x="960" y="720" font-family="Arial, sans-serif" font-size="16" fill="#fafafa" text-anchor="middle" opacity="0.7">Video Placeholder</text>
+  <text x="960" y="1040" font-family="Arial, sans-serif" font-size="14" fill="#999999" text-anchor="middle" opacity="0.5">Replace with your .mp4 video file</text>
+</svg>

@@ -1,0 +1,140 @@
+{
+  "brand": {
+    "name": "Lensverse",
+    "logo": "/images/logo.png",
+    "tagline": "Where Every Frame Finds Its Story."
+  },
+  "hero": {
+    "slides": [
+      {
+        "type": "image",
+        "src": "/images/hero1.jpg",
+        "headline": "Cinematic photography",
+        "sub": "Where Every Shot Tells a Story."
+      },
+      {
+        "type": "image",
+        "src": "/images/hero2.jpg",
+        "headline": "Stories in motion",
+        "sub": "Videography that breathes life."
+      }
+    ],
+    "ctas": [
+      { "label": "View Portfolio", "href": "/gallery" },
+      { "label": "Book a Shoot", "href": "/booking" }
+    ]
+  },
+  "highlights": [
+    { "label": "Projects", "value": "50+" },
+    { "label": "Years", "value": "3" },
+    { "label": "Clients", "value": "25+" },
+    { "label": "Edits", "value": "100+" }
+  ],
+  "about": {
+    "title": "About Lensverse",
+    "text": "We blend artistry with precision to craft photographs, films, and edits that feel alive. Every frame tells a story, every cut builds emotion, and every project reflects the unique vision of our clients.",
+    "usps": [
+      { "title": "Cinematic Vision", "description": "Every shot is crafted with cinematic precision and artistic intent." },
+      { "title": "Story-First Editing", "description": "We edit to enhance narratives, not just assemble footage." },
+      { "title": "On-Time Delivery", "description": "Reliable timelines without compromising quality." },
+      { "title": "Client-First Process", "description": "Your vision, our expertise, seamless collaboration." },
+      { "title": "Premium Quality", "description": "Industry-leading equipment and techniques for stunning results." },
+      { "title": "Creative Excellence", "description": "Award-winning work that stands out from the crowd." }
+    ],
+    "team": [
+      { "name": "Adithya Kiran", "role": "Founder, Photographer, Videographer, Editor", "img": "/images/kiran.jpeg", "bio": "Visionary storyteller with an eye for detail." },
+      { "name": "Arun", "role": "Founder, Photographer, Videographer, Editor", "img": "/images/arunn.jpeg", "bio": "A creative visionary obsessed with detail and storytelling." }
+    ],
+    "testimonials": [
+      { "name": "Akshay", "text": "They captured our day perfectly! Every moment was beautifully documented.", "rating": 5, "service": "Wedding Photography" },
+      { "name": "Akash", "text": "The video exceeded our expectations. Truly cinematic work!", "rating": 5, "service": "Event Videography" },
+      { "name": "Beno", "text": "Professional, creative, and delivered on time. Highly recommended!", "rating": 5, "service": "Product Photography" }
+    ]
+  },
+  "services": [
+    {
+      "category": "Photography",
+      "items": [
+        { "title": "Weddings", "desc": "Candid + editorial coverage", "highlights": ["Pre-wed shoot", "Same-day selects", "Full-day coverage", "Album design"], "price": "From ₹25,000" },
+        { "title": "Product", "desc": "Commercial product photography", "highlights": ["Studio setup", "Multiple angles", "Lifestyle shots", "E-commerce ready"], "price": "From ₹15,000" },
+        { "title": "Fashion", "desc": "Editorial fashion photography", "highlights": ["Concept development", "Studio/location", "Model direction", "Post-production"], "price": "From ₹20,000" },
+        { "title": "Events", "desc": "Corporate and social events", "highlights": ["Full coverage", "Candid moments", "Group shots", "Quick turnaround"], "price": "From ₹20,000" }
+      ]
+    },
+    {
+      "category": "Videography",
+      "items": [
+        { "title": "Event Films", "desc": "Cinematic storytelling", "highlights": ["Drone option", "Trailer + full cut", "Color grading", "Sound design"], "price": "From ₹35,000" },
+        { "title": "Wedding Films", "desc": "Emotional wedding documentaries", "highlights": ["Highlight reel", "Full ceremony", "Same-day edit", "Custom soundtrack"], "price": "From ₹50,000" },
+        { "title": "Commercial", "desc": "Brand videos and advertisements", "highlights": ["Concept to delivery", "Multiple locations", "Professional audio", "Marketing ready"], "price": "From ₹40,000" },
+        { "title": "Short Films", "desc": "Creative narrative films", "highlights": ["Script development", "Full production", "Post-production", "Festival ready"], "price": "From ₹60,000" }
+      ]
+    },
+    {
+      "category": "Editing",
+      "items": [
+        { "title": "Social Reels", "desc": "Snappy, on-brand edits", "highlights": ["Color grade", "Sound design", "Multiple formats", "Quick delivery"], "price": "From ₹5,000" },
+        { "title": "Color Grading", "desc": "Professional color correction", "highlights": ["Cinematic looks", "Consistent style", "Multiple formats", "Expert touch"], "price": "From ₹8,000" },
+        { "title": "Video Editing", "desc": "Full post-production services", "highlights": ["Timeline editing", "Transitions", "Audio mixing", "Export optimization"], "price": "From ₹12,000" },
+        { "title": "Photo Editing", "desc": "Retouching and enhancement", "highlights": ["Color correction", "Skin retouching", "Background removal", "Batch processing"], "price": "From ₹1,000" }
+      ]
+    }
+  ],
+  "addons": [
+    { "title": "Drone Coverage", "desc": "Aerial shots for breathtaking perspectives", "price": "+₹10,000" },
+    { "title": "Same-Day Edit", "desc": "Quick turnaround for urgent projects", "price": "+₹5,000" },
+    { "title": "Social-First Cuts", "desc": "Optimized versions for social media", "price": "+₹3,000" },
+    { "title": "Event After-Movie", "desc": "Highlight reel of your event", "price": "+₹8,000" },
+    { "title": "Extended Coverage", "desc": "Additional hours of shooting", "price": "+₹2,000/hour" }
+  ],
+  "gallery": {
+    "filters": ["All", "Wedding", "Product", "Fashion", "Events", "Short-Films", "Reels"],
+    "items": [
+      { "src": "/images/wed1.jpeg","category": "Wedding","title": "A moment in gold",  "type": "image" },
+      { "src": "/images/prod1.jpeg","category": "Product","title": "Shadows & shine",  "type": "image" },
+      { "src": "/images/fashion1.jpeg","category": "Fashion","title": "Editorial elegance",  "type": "image" },
+      { "src": "/images/event1.jpg","category": "Events","title": "Celebration vibes",  "type": "image" },
+      { "src": "/images/reel1.mp4","category": "Reels","title": "Social media magic",  "type": "video" },
+      { "src": "/images/wed2.jpeg","category": "Wedding","title": "Timeless love",  "type": "image" },
+      { "src": "/images/prod2.jpeg","category": "Product","title": "Brand Elevation",  "type": "image" },
+      { "src": "/images/fashion2.jpeg","category": "Fashion","title": "Urban style",  "type": "image" },
+      { "src": "/images/event2.jpg","category": "Events","title": "Visual excellence",  "type": "image" },
+      { "src": "/images/event3.jpg","category": "Events","title": "Automotive Excellence",  "type": "image" },
+      { "src": "/images/film1.mp4","category": "Short-Films","title": "Short film preview",  "type": "video" },
+      { "src": "/images/reel2.mp4","category": "Reels","title": "Cinematic Reel",  "type": "video" }
+    ]
+  },
+  "founders": [
+    {
+      "name": "V. Adithya Kiran",
+      "title": "Founder",
+      "photo": "/images/kiran.jpeg",
+      "email": "adithya44kiran@gmail.com",
+      "phone": "+91 73387 29586",
+      "linkedin": "https://www.linkedin.com/in/adithya-kiran-v-786484257/",
+      "instagram": "https://www.instagram.com/v.adithyakiran"
+    },
+    {
+      "name": "V.L. Arun",
+      "title": "Founder",
+      "photo": "/images/arunn.jpeg",
+      "email": "vlapvrvk@gmail.com",
+      "phone": "+91 90800 28035",
+      "linkedin": "https://www.linkedin.com/in/vl-arun-46630b24b/",
+      "instagram": "https://www.instagram.com/__arun_vl__?igsh=MThsbzBodGRvcWxjYw%3D%3D&utm_source=qr"
+    }
+  ],
+  "booking": {
+    "email_to": "lensversecontact@gmail.com",
+    "phone_required": true
+  },
+  "contact": {
+    "companyEmail": "lensversecontact@gmail.com",
+    "address": "Chennai, Tamil Nadu",
+    "email": "lensversecontact@gmail.com",
+    "phone": "+91-9080028035, +91-7338729586"
+  },
+  "socials": [
+    { "label": "Instagram", "href": "https://www.instagram.com/__lensverse__?igsh=MTB0NGpqcjh6a2JpaA==", "icon": "instagram" }
+  ]
+}

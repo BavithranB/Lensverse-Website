@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1200" height="800" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="grad-fashion1.jpg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a1a1a;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#333333;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1a1a1a;stop-opacity:1" />
+    </linearGradient>
+    <pattern id="grid-fashion1.jpg" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#d4af37" stroke-width="0.5" opacity="0.1"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="800" fill="url(#grad-fashion1.jpg)"/>
+  <rect width="1200" height="800" fill="url(#grid-fashion1.jpg)"/>
+  <circle cx="600" cy="360" r="50" fill="#d4af37" opacity="0.3"/>
+  <rect x="575" y="375" width="50" height="50" fill="#d4af37" opacity="0.2" rx="4"/>
+  <text x="600" y="460" font-family="Arial, sans-serif" font-size="32" font-weight="bold" fill="#d4af37" text-anchor="middle" opacity="0.8">Editorial elegance</text>
+  <text x="600" y="500" font-family="Arial, sans-serif" font-size="18" fill="#fafafa" text-anchor="middle" opacity="0.6">fashion Photography</text>
+  <text x="600" y="760" font-family="Arial, sans-serif" font-size="14" fill="#999999" text-anchor="middle" opacity="0.5">Replace with your image</text>
+</svg>
