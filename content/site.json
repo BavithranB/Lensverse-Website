@@ -99,7 +99,7 @@
       { "src": "/images/prod2.jpeg","category": "Product","title": "Brand Elevation",  "type": "image" },
       { "src": "/images/fashion2.jpeg","category": "Fashion","title": "Urban style",  "type": "image" },
       { "src": "/images/event2.jpg","category": "Events","title": "Visual excellence",  "type": "image" },
-      { "src": "/images/event3.JPG","category": "Events","title": "Automotive Excellence",  "type": "image" },
+      { "src": "/images/event3_11zon.jpeg","category": "Events","title": "Automotive Excellence",  "type": "image" },
       { "src": "/images/film1.mp4","category": "Short-Films","title": "Short film preview",  "type": "video" },
       { "src": "/images/reel2.mp4","category": "Reels","title": "Cinematic Reel",  "type": "video" }
     ]
