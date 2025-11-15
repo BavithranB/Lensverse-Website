@@ -10,7 +10,7 @@ export const metadata = {
 
 export default function ContactPage() {
   const content = getContent();
-  const founders = content.founders || [];
+  const founders = content.about.team || [];
   const c = content.contact || {};
 
   return (
