@@ -102,6 +102,16 @@ export interface Social {
   icon: string;
 }
 
+export interface Founder {
+  name: string;
+  title: string;
+  photo: string;
+  email: string;
+  phone: string;
+  linkedin: string;
+  instagram: string;
+}
+
 export interface SiteContent {
   brand: Brand;
   hero: Hero;
@@ -113,6 +123,7 @@ export interface SiteContent {
   booking: Booking;
   contact: Contact;
   socials: Social[];
+  founders: Founder[];
 }
 
 export function getContent(): SiteContent {
