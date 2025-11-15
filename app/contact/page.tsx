@@ -60,8 +60,8 @@ export default function ContactPage() {
           <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
             <div className="rounded-lg border border-white/10 bg-neutral-800/40 p-4">
               <div className="text-sm text-neutral-400">Email</div>
-              <a href={`mailto:${c.companyEmail}`} className="font-medium hover:text-red-500">
-                {c.companyEmail}
+              <a href={`mailto:${c.email}`} className="font-medium hover:text-red-500">
+                {c.email}
               </a>
             </div>
 
