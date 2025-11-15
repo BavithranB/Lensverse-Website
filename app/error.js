@@ -18,7 +18,7 @@ export default function Error({ error, reset }) {
         <h1 className="text-6xl font-bold text-red-600 mb-4">500</h1>
         <h2 className="text-2xl font-semibold text-gray-800 mb-4">Something went wrong!</h2>
         <p className="text-gray-600 mb-6">
-          We're experiencing some technical difficulties. Please try again later.
+          We&apos;re experiencing some technical difficulties. Please try again later.
         </p>
         <button
           onClick={() => reset()}

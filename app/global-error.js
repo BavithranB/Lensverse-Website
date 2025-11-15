@@ -19,7 +19,7 @@ export default function GlobalError({ error, reset }) {
           <div className="max-w-md w-full p-8 bg-white rounded-lg shadow-lg text-center">
             <h2 className="text-2xl font-bold text-red-600 mb-4">Something went wrong!</h2>
             <p className="text-gray-700 mb-6">
-              We're sorry, but an unexpected error occurred. Our team has been notified and we're working on fixing it.
+              We&apos;re sorry, but an unexpected error occurred. Our team has been notified and we&apos;re working on fixing it.
             </p>
             <button
               onClick={() => reset()}
